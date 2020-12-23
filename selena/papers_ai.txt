@@ -1,0 +1,23 @@
+{0: {'link': 'https://github.com/tensorflow/tensorflow', 'name': 'tensorflow'},
+ 1: {'link': 'https://github.com/tensorflow/models', 'name': 'models'},
+ 2: {'link': 'https://paperswithcode.com/paper/pytorch-an-imperative-style-high-performance-1',
+     'name': 'PyTorch: An Imperative Style, High-Performance Deep Learning '
+             'Library'},
+ 3: {'link': 'https://paperswithcode.com/paper/automatic-differentiation-in-pytorch',
+     'name': 'Automatic Differentiation in PyTorch'},
+ 4: {'link': 'https://paperswithcode.com/paper/scikit-learn-machine-learning-in-python',
+     'name': 'Scikit-learn: Machine Learning in Python'},
+ 5: {'link': 'https://github.com/huggingface/transformers',
+     'name': 'transformers'},
+ 6: {'link': 'https://paperswithcode.com/paper/dialogpt-large-scale-generative-pre-training',
+     'name': 'DialoGPT: Large-Scale Generative Pre-training for Conversational '
+             'Response Generation'},
+ 7: {'link': 'https://paperswithcode.com/paper/robust-reading-comprehension-with-linguistic',
+     'name': 'Robust Reading Comprehension with Linguistic Constraints via '
+             'Posterior Regularization'},
+ 8: {'link': 'https://paperswithcode.com/paper/adapting-the-tesseract-open-source-ocr-engine',
+     'name': 'Adapting the Tesseract Open Source OCR Engine for Multilingual '
+             'OCR'},
+ 9: {'link': 'https://paperswithcode.com/paper/deepfacelab-a-simple-flexible-and-extensible',
+     'name': 'DeepFaceLab: A simple, flexible and extensible face swapping '
+             'framework'}}
