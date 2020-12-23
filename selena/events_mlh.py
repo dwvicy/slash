@@ -11,15 +11,14 @@ driver.get("https://mlh.io/seasons/2021/events")
 
 
 events = {}
-
+#getting the data from the website
 event_names = driver.find_elements_by_class_name("event-name")
 print(type(event_names))
 event_dates = driver.find_elements_by_class_name("event-date")
 event_links = driver.find_elements_by_css_selector(".event-wrapper a")
 
-# for name in event_names:
-#     print(name.get_attribute("href"))
 
+#looping through the data to print it in the form of a dict
 for i in range(len(event_names)):
     events[i] = {
         "name": event_names[i].text,
@@ -29,9 +28,10 @@ for i in range(len(event_names)):
 
 print(events)
 
+#formatting the dict and converting to string
 event_dict = pprint.pformat(events)
     
-    
+#writing the dict into a file called mlh.txt   
 try:
     event_txt = open('events_mlh.txt', 'wt')
     event_txt.write(event_dict)
