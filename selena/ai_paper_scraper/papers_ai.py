@@ -16,6 +16,7 @@ papers = {}
 paper_names = driver.find_elements_by_css_selector(".item h1 a")
 print(type(paper_names))
 
+
 #looping through the data to get it in the form of a dict
 for name in paper_names:
     print(name.get_attribute("href"))
