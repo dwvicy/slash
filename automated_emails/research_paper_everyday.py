@@ -6,7 +6,7 @@ import pandas as pd
 
 
 email = "dsc.rait@gmail.com"
-password = "RAITCodeKarega"
+password = "ChangedMyPass"
 to_addrs = "vaishdw2207@gmail.com"
 
 now = dt.datetime.now()
