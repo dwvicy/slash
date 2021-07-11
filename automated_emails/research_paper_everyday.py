@@ -5,9 +5,9 @@ import csv
 import pandas as pd
 
 
-email = "dsc.rait@gmail.com"
+email = "emailaddress@domain.com"
 password = "ChangedMyPass"
-to_addrs = "vaishdw2207@gmail.com"
+to_addrs = "fnamelname@domain.com"
 
 now = dt.datetime.now()
 print(now)
